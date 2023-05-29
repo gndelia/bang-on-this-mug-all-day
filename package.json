@@ -1,0 +1,35 @@
+{
+  "name": "bang-the-mug-all-day",
+  "version": "1.0.0",
+  "description": "Twitter bot that posts the Michael Scott video singing \"I don't wanna work I just wanna bang on this mug all day\" daily.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "sls offline start",
+    "deploy": "sls deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gndelia/bang-the-mug-all-day.git"
+  },
+  "keywords": [
+    "twitter",
+    "twitter-bot",
+    "the-office",
+    "aws",
+    "serverless",
+    "michael-scott"
+  ],
+  "author": "Gonzalo D'Elia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gndelia/bang-the-mug-all-day/issues"
+  },
+  "homepage": "https://github.com/gndelia/bang-the-mug-all-day#readme",
+  "devDependencies": {
+    "serverless": "3.22.0",
+    "serverless-offline": "11.0.1"
+  },
+  "dependencies": {
+    "twitter-api-v2": "1.12.7"
+  }
+}
